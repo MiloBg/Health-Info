@@ -37,14 +37,14 @@
             </div>
         </div>
           <div class="food">
-            <img class="images" src="img/Bananas.jpg" alt="Bananas">
+            <img class="images" src="Bananas.jpg" alt="Bananas">
             <div class="food-text">
                 <h2>Bananas</h2>
                 <p>A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe. </p>
             </div>
         </div>
           <div class="food">
-            <img class="images" src="img/Sandwich.jpg" alt="Sandwich">
+            <img class="images" src="Sandwich.jpg" alt="Sandwich">
             <div class="food-text">
                 <h2>Sandwiches</h2>
                 <p>A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type. The sandwich began as a portable finger food in the Western world, though over time it has become prevalent worldwide. The 3rd of November marks the National Sandwich Day. </p>
@@ -52,7 +52,7 @@
         </div>
     </section>
     <section class="big-image">
-        <img src="img/Tomato.jpg" alt="Tomato">
+        <img src="Tomato.jpg" alt="Tomato">
     </section>
     <footer>
         <p>&copy; Seven2Heaven 2020; Done by Milovan Srdanović</p>
