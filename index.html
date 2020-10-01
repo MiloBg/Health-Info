@@ -30,7 +30,7 @@
     </section>
     <section class="show-food">
         <div class="food">
-            <img class="images" src="img/Almonds.jpg" alt="Almonds">
+            <img class="images" src="Almonds.jpg" alt="Almonds">
             <div class="food-text">
                 <h2>Almonds</h2>
                 <p>The almond (Prunus dulcis, syn. Prunus amygdalus) is a species of tree native to Iran and surrounding countries, but widely cultivated elsewhere. The almond is also the name of the edible and widely cultivated seed of this tree. Within the genus Prunus, it is classified with the peach in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the shell (endocarp) surrounding the seed. </p>
