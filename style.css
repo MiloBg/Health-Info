@@ -1,0 +1,139 @@
+/* --------------------------
+        Basic Setup
+-------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* --------------------------
+           Header
+-------------------------- */
+body {
+    background-color: #2c3e50;
+}
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px 0;
+}
+header h1 span {
+    color: #e74c3c;
+}
+
+/* Nav Menu */
+.nav-menu {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fafafa;
+}
+.nav-menu a {
+    color: #2c3e50;
+}
+.nav-menu a:hover {
+    color: #e74c3c;
+	transition: 1s;
+}
+.nav-menu li {
+    padding: 20px;
+}
+
+/* --------------------------
+        About text
+-------------------------- */
+.about-text {
+    padding: 0 50px;
+}
+.about-text h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    color: #e74c3c;
+    margin: 30px 0;
+}
+.about-text p {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.about-text a {
+    color: #e74c3c;
+    font-weight: 700;
+}
+.about-text a:hover {
+    color: #2c3e50;
+}
+
+/* --------------------------
+        Show Food
+-------------------------- */
+.show-food {
+    margin-top: 80px;
+    padding: 0 50px;
+}
+.food {
+    background: #2c3e50;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.food:nth-child(2) {
+    background: #e74c3c;
+}
+.food .food-text {
+    padding: 20px;
+}
+.food h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.food-text p {
+    font-weight: 300;
+    font-size: 17px;
+}
+.images {
+    width: 400px;
+    height: 250px;
+}
+
+/* --------------------------
+        Big Image
+-------------------------- */
+.big-image {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.big image img {
+    width: 100%;
+}
+
+/* --------------------------
+          Footer
+-------------------------- */
+footer {
+    background: #e74c3c;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    padding: 15px;
+    font-size: 18px;
+}
