@@ -1,0 +1,57 @@
+/* --------------------------
+        Media Query
+-------------------------- */
+
+@media all and (max-width: 1420px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 1200px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 991px) {
+    .food {
+    background: #2c3e50;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+    .images {
+    width: 100%;
+    height: 100%;
+}
+    .big-image img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .about-text h2 {
+    text-align: center;
+    }
+    .about-text p {
+        text-align: justify;
+    }
+    .big-image img {
+        width: 90%
+    }
+}
+
+@media all and (max-width: 480px) {
+    .about-text h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    /* Everything acceptable */
+}
