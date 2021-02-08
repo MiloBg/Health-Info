@@ -9,4 +9,4 @@ https://milobg.github.io/Health-Info/
 
 ### To Do:
 Make it responsive to all screen sizes              DONE!\
-Add a hamburger menu for nav for max-width: 480px
+Add a hamburger menu for nav for max-width: 768px   DONE!
