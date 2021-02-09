@@ -28,8 +28,8 @@
             <a href="#home"><li>Home</li></a>
             <a href="#about"><li>About</li></a>
             <a href="#menu"><li>Menu</li></a>
-            <a href="#big-image"><li>Gallery</li></a>
-            <a href="#big-image"><li>Contact</li></a>
+            <a href="#big-images"><li>Gallery</li></a>
+            <a href="#big-images"><li>Contact</li></a>
         </ul>
     </header>
     <section class="about-text">
@@ -62,9 +62,30 @@
             </div>
         </div>
     </section>
-    <section class="big-image" id="big-image">
-        <img src="img/Tomato.jpg" alt="Tomato">
-    </section>
+    
+    <div class="slideshow-container" id="big-images">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/Tomato.png" alt="Tomato">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/Fruits.png" alt="Fruits">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/Avocado.png" alt="Avocado">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
     <footer>
         <p>&copy; Seven2Heaven 2020; Done by Milovan Srdanović</p>
     </footer>
