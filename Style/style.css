@@ -6,16 +6,20 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Oswald', sans-serif;
 }
+
 li {
     list-style: none;
     display: inline-block;
 }
+
 a {
     text-decoration: none;
 }
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -28,11 +32,13 @@ a {
 body {
     background-color: #2c3e50;
 }
+
 header h1 {
     text-align: center;
     color: #2c3e50;
     padding: 20px 0;
 }
+
 header h1 span {
     color: #e74c3c;
 }
@@ -43,13 +49,16 @@ header h1 span {
     text-transform: uppercase;
     background-color: #fafafa;
 }
+
 .nav-menu a {
     color: #2c3e50;
 }
+
 .nav-menu a:hover {
     color: #e74c3c;
-	transition: 1s;
+    transition: 1s;
 }
+
 .nav-menu li {
     padding: 20px;
 }
@@ -118,6 +127,7 @@ header h1 span {
 .about-text {
     padding: 0 50px;
 }
+
 .about-text h2 {
     text-transform: uppercase;
     font-weight: 300;
@@ -125,14 +135,17 @@ header h1 span {
     color: #e74c3c;
     margin: 30px 0;
 }
+
 .about-text p {
     font-weight: 400;
     margin-bottom: 10px;
 }
+
 .about-text a {
     color: #e74c3c;
     font-weight: 700;
 }
+
 .about-text a:hover {
     color: #2c3e50;
 }
@@ -144,6 +157,7 @@ header h1 span {
     margin-top: 80px;
     padding: 0 50px;
 }
+
 .food {
     background: #2c3e50;
     margin-bottom: 30px;
@@ -151,22 +165,27 @@ header h1 span {
     display: flex;
     color: white;
 }
+
 .food:nth-child(2) {
     background: #e74c3c;
 }
+
 .food .food-text {
     padding: 20px;
 }
+
 .food h2 {
     margin-bottom: 10px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 .food-text p {
     font-weight: 300;
     font-size: 17px;
 }
+
 .images {
     width: 400px;
     height: 250px;
@@ -183,16 +202,22 @@ header h1 span {
     position: relative;
     margin: auto;
 }
+
 .slideshow-container h3 {
     text-transform: uppercase;
+    font-size: 24px;
 }
+
 .dots {
     text-align: center;
 }
+
 .mySlides {
     display: none;
 }
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -206,23 +231,29 @@ header h1 span {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-    background-color: rgba(231,76,60,0.8);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(231, 76, 60, 0.8);
 }
+
 .numbertext {
     color: #2c3e50;
     font-size: 24px;
     padding: 8px 12px;
     top: 0;
 }
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -234,22 +265,36 @@ header h1 span {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
     background-color: #e74c3c;
 }
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
+
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* --------------------------
@@ -261,6 +306,7 @@ header h1 span {
     text-align: center;
     color: white;
 }
+
 .contact h2 {
     padding-top: 50px;
     padding-bottom: 35px;
@@ -269,10 +315,12 @@ header h1 span {
     word-spacing: 4px;
     letter-spacing: 2px;
 }
+
 .contact form {
     max-width: 60%;
     margin: 0 auto;
 }
+
 .contact input,
 .contact textarea {
     width: 100%;
@@ -282,6 +330,7 @@ header h1 span {
     font-size: 15px;
     background-color: white;
 }
+
 .contact textarea {
     resize: none;
 }
@@ -291,6 +340,7 @@ textarea:focus {
     background-color: #2c3e50;
     color: white;
 }
+
 form .btn {
     border-radius: 10px;
     border: 2px solid white;
@@ -301,6 +351,7 @@ form .btn {
     cursor: pointer;
     transition: all .4s ease;
 }
+
 form .btn:hover {
     background-color: white;
     color: #e74c3c;
